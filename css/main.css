@@ -14,6 +14,7 @@
 
 .container {
   max-width: 1199px;
+  /* width: 78%; */
   margin: auto;
 }
 
@@ -158,4 +159,102 @@ header {
 .carousel_banner img {
   display: block;
   width: 100%;
+}
+
+/* Services */
+
+.services {
+  background-image: url(../img/bg2.png);
+  background-size: cover;
+  text-align: center;
+  background-position: center top;
+}
+
+.services .title {
+  text-align: center;
+}
+.services_content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+}
+.services_item {
+  width: 31.3333%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 60px 0px;
+  background: rgb(255, 255, 255);
+  padding: 30px 45px;
+  border: #ffffff solid 3px;
+  border-radius: 8px;
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+
+.services_item:hover {
+  transform: translateY(-20px);
+  border-image: url(../img/br.png) 1 / 1 / 0 round;
+}
+
+.services_item img {
+  width: 215px;
+}
+
+.services_item h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgb(38, 38, 38);
+  margin: 15px 0px;
+}
+
+/* ABUS */
+.aboutUs {
+  background-image: url(../img/bg15.png);
+  padding-bottom: 85px;
+  background-position: center right;
+  overflow: hidden;
+  background-size: 100%;
+}
+
+.aboutUs_content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.aboutUs_article p {
+  margin-bottom: 15px;
+}
+
+.aboutUs_article ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.aboutUs_article li {
+  padding: 5px 0px 5px 0;
+}
+
+.aboutUs_article li i {
+  font-size: 24px;
+  color: #f55f8d;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.aboutUs_left {
+  width: 60%;
+  position: absolute;
+  left: -29%;
+}
+.aboutUs_banner {
+  margin-left: 50px;
+  width: 570px;
+}
+.aboutUs_banner img {
+  width: 140%;
+  border-radius: 0 100px 100px 0;
+}
+.aboutUs_right {
+  width: 50%;
 }
