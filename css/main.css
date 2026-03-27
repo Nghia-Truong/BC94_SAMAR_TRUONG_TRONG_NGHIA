@@ -190,6 +190,9 @@ header {
   transform: translateY(0px);
   transition: 0.5s;
 }
+.services_item2 {
+  margin: 0px 30px;
+}
 
 .services_item:hover {
   transform: translateY(-20px);
@@ -839,4 +842,38 @@ footer::before {
 
 .footer__copyright a:hover {
   background: #f55f8d;
+}
+
+/* btt */
+.backToTop {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+
+  transition: all 0.2s;
+  box-shadow: -4px 4px 24px -10px #f55f8d;
+  visibility: hidden;
+
+  opacity: 0;
+}
+
+.backToTop i {
+  width: 50px;
+  height: 50px;
+  background: #f55f8d;
+  border-radius: 8px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+/* BTT */
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: 1;
 }
